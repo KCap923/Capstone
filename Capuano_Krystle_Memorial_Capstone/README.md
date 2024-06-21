@@ -12,4 +12,4 @@
 
 ⚡ Fun fact: ... 
 
-[Capstone Backend](git remote add origin git@github.com:KCap923/Capstone_Memorial_Backend.git)
+[Capstone Backend](https://github.com/KCap923/Capstone_Memorial_Backend)
