@@ -1,17 +1,14 @@
-# 👋 Hi I’m Krystle 
+# Capstone  
+________________________________________________________________________
 
-💻 Technology used ... VSC, 
+Project Summary 
 
-👀 I’m interested in ... Growing my knowledge in web development, and helping others along the way.
+💻 Technology used ... VSC, Bootstrap, Google Fonts, CSS Animations, 
 
-🌱 I’m currently focusing on ... The glorious MERN Stack!!!
+## Links
 
-📫 Accounts ... 
-GitHub- https://github.com/KCap923 
-LinkedIn- https://www.linkedin.com/in/krystlecapuano/
+[Deployed Capstone Frontend  Netlify Link](<LINKGOESHERE>)
 
-😄 Pronouns: ... She/Her
+[Capstone Backend Github Link](https://github.com/KCap923/Capstone_Memorial_Backend)
 
-⚡ Fun fact: ... 
-
-[Capstone Backend](https://github.com/KCap923/Capstone_Memorial_Backend)
+[Deployed Capstone Backend Render Link](<LINKGOESHERE>)

@@ -1,5 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar'
+
+// Import Route and our components
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Timeline from "./pages/Timeline"
@@ -8,10 +10,9 @@ import Photos from "./pages/Photos"
 import Nopage from "./pages/NoPage"
 
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>  
-  
     <Routes>
     <Route index element={<Home/>}/>
     <Route path="/home" element={<Home/>}/>
@@ -24,4 +25,3 @@ function App() {
   )
 }
 
-export default App
