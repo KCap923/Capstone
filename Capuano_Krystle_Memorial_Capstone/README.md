@@ -6,7 +6,9 @@
 
 🌱 I’m currently focusing on ... The glorious MERN Stack!!!
 
-📫 Accounts ... GitHub- https://github.com/KCap923 LinkedIn- https://www.linkedin.com/in/krystlecapuano/
+📫 Accounts ... 
+GitHub- https://github.com/KCap923 
+LinkedIn- https://www.linkedin.com/in/krystlecapuano/
 
 😄 Pronouns: ... She/Her
 
