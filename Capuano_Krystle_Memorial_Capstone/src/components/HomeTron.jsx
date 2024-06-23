@@ -1,15 +1,15 @@
 const HomeTron = () => {
   return (
 
-
-<div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary" id="home-tron">
-    <div className="col-lg-6 px-0">
-      <h1 className="display-4 fst-italic">Title of a longer featured blog post</h1>
-      <p className="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      {/* <p className="lead mb-0"><a href="#" className="text-body-emphasis fw-bold">Continue reading...</a></p> */}
-    </div>
-  </div>
+<div className="home-card">
+  <img src="../src/images/Mimahome.jpg" className="rounded float-start" id="home-img" alt="..."></img>
+  <div className="card-details">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti laboriosam numquam perspiciatis error accusamus distinctio voluptatem beatae? Eos assumenda voluptatum consectetur quas doloribus temporibus quidem vitae quam tenetur laborum. Quis earum soluta nisi repellat nostrum similique commodi praesentium? Aut, ratione! Ex voluptas aliquid ratione eum et quam, aspernatur excepturi vero.</p>
+</div>
+</div>
 
 )}
 
 export default HomeTron
+
+
