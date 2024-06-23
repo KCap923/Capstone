@@ -2,13 +2,33 @@ body {
 background-color: #C4DFDF;
 }
 
+h1 {
+  color: black;
+  margin-top: 95px;
+}
+
+#nav-title{
+  font-family: "Playwrite IN", cursive;
+  color: #135D66;
+  font-size: 25px;
+}
+
 #navbar {
 font-family: "Lora", serif;
 font-size: 20px;
 }
 
-h1 {
-color: red;
-font-size: 40px;
-
+#quote {
+color: whitesmoke;
+font-family: "Lora", serif;
+font-size: 30px;
+margin-top: 95px;
 }
+
+#quote-source {
+color: whitesmoke;
+font-family: "Lora", serif;
+font-size: 15px;
+margin: 5px;
+}
+

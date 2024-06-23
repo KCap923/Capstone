@@ -1,11 +1,9 @@
-
-
 const NavBar = () => {
   return (
 
 <nav className="navbar bg-body-tertiary fixed-top" id="navbar" >
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"> Memories Of Mima </a>
+    <a className="navbar-brand" id="nav-title" href="/home"> Memories Of Mima </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -30,10 +28,10 @@ const NavBar = () => {
               Photo Albums
             </a>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="/Mima&HoneyAlbum"> Mima & Honey </a></li>
-              <li><a className="dropdown-item" href="/album"> Family </a></li>
-              <li><a className="dropdown-item" href="/album"> Year </a></li>
-              <li><a className="dropdown-item" href="/album"> Events </a></li>
+              <li><a className="dropdown-item" href="/photos"> Mima & Honey </a></li>
+              <li><a className="dropdown-item" href="#"> Family </a></li>
+              <li><a className="dropdown-item" href="#"> Year </a></li>
+              <li><a className="dropdown-item" href="#"> Events </a></li>
               <li>
                 <hr className="dropdown-divider"/>
               </li>

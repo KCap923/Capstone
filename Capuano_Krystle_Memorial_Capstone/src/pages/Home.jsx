@@ -1,11 +1,11 @@
 import Navbar from "../components/NavBar";
+import Quote from "../components/Quote";
 
 export default function Home() {
   return (
     <>
- 
-      <h1> Home Page </h1>
         <Navbar /> 
+        <Quote/>
         </>
   );
 }

@@ -1,9 +1,9 @@
-# Capstone  
+# Capstone Memorial Site 
 ________________________________________________________________________
 
 Project Summary 
 
-💻 Technology used ... VSC, Bootstrap, Google Fonts, CSS Animations, 
+💻 Technology used ... VSC, Bootstrap, Google Fonts, CSS Animations, Mockaroo, 
 
 ## Links
 
