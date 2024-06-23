@@ -1,10 +1,12 @@
 import Navbar from '../components/NavBar'
+import PhotoCards from '../components/PhotoCards';
 
 export default function Photo() {
   return (
     <>
       <Navbar />
-      <h1> Photo Album Page </h1>
+      <h1> Mima & Honey </h1>
+      <PhotoCards/>
     </>
   );
 }
