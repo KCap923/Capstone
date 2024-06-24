@@ -22,7 +22,7 @@ font-family: "Lora", serif;
 font-size: 20px;
 }
 
-/* Home Page/ Obituar Details ****************************************** */
+/* Home Page/ Obituary Details ****************************************** */
 
 h3 {
   font-family: "Playwrite IN", cursive;
@@ -30,14 +30,18 @@ h3 {
   font-size: 25px;
 }
 
-p {
-  font-family: "Lora", serif;
-  color: whitesmoke;
-}
 
 #home-img2 {
-  display: flex;
-  justify-content: end;
+  display: flex !important;
+  justify-content: end !important;
+  width: 600px;
+}
+
+.home-paragraph{
+  display: flex !important;
+  justify-content: start !important;
+  font-family: "Lora", serif;
+  color: whitesmoke;
 }
 
 

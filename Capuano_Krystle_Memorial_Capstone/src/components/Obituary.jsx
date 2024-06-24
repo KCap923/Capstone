@@ -2,11 +2,10 @@ const Obituary = () => {
 return(
 <div> 
 <img src="../src/images/Home/SecondHomeImg.png" className="rounded float-start" id="home-img2" alt="..."></img>
-<div className="card-details"/>
 
 <h3> Obituary </h3>
 <br/>
-<p> 
+<p className="home-paragraph" > 
 A Life Full of Love and Joy
 Today, we gather to celebrate the life of Mima, a beloved mother, grandmother, and friend. She was a beacon of love, kindness, and wisdom, who touched the lives of everyone she met.
 <br/>

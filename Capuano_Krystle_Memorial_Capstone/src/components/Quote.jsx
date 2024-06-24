@@ -6,7 +6,7 @@ const Quote = () => {
     <p> I will search for you in every sunrise. </p>
   </blockquote>
   <figcaption className="blockquote-footer" id="quote-source">
-    Someone famous in <cite title="Source Title">Source Title</cite>
+  Evangelina Sansam <cite title="Source Title"></cite>
   </figcaption>
 </figure>
 

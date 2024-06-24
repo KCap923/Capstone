@@ -1,6 +1,12 @@
+{/*Quote, Images, */}
+
+h2{
+  color: #27374D;
+  font-family: "Lora", serif;
+}
 
 #quote {
-  color: whitesmoke;
+  color: #27374D;
   font-family: "Lora", serif;
   font-size: 30px;
   margin-top: 50px;
@@ -31,3 +37,10 @@
     padding-top: 160px;
     
   }
+
+  /* #home-img2 {
+    display: flex !important;
+    justify-content: end !important;
+    width: 600px;
+  } */
+
