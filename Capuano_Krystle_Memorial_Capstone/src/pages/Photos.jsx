@@ -1,5 +1,6 @@
 import Navbar from '../components/NavBar'
 import PhotoCards from '../components/PhotoCards';
+import "../components/CSSPages/photos.css"
 
 export default function Photo() {
   return (

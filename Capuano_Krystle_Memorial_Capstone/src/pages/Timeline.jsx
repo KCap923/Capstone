@@ -1,4 +1,5 @@
 import Navbar from '../components/NavBar'
+import "../components/CSSPages/timeline.css"
 
 export default function Timeline() {
   return (

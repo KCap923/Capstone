@@ -1,4 +1,4 @@
-/* Throught All Pages ****************************************** */
+/* Throught All Pages/ NavBar ****************************************** */
 body {
 background-color: #9DB2BF;
 }
@@ -24,37 +24,17 @@ font-size: 20px;
 
 /* Home Page ****************************************** */
 
-#quote {
-color: whitesmoke;
-font-family: "Lora", serif;
-font-size: 30px;
-margin-top: 50px;
+h3 {
+
+  font-family: "Playwrite IN", cursive;
+  color: #27374D;
+  font-size: 25px;
+
 }
 
-#quote-source {
-color: whitesmoke;
-font-family: "Lora", serif;
-font-size: 15px;
-margin: 5px;
-}
-
-.home-card {
-  width: 1110px;
-  height: 500px;
-  margin-top: 60px;
-}
-
-#home-img {
-  width: 480px;
-  padding-top: 50px;
-}
-
-.card-details {
-  color: whitesmoke;
+p {
   font-family: "Lora", serif;
-  font-size: 18px;
-  padding-top: 160px;
-  
+  color: whitesmoke;
 }
 
 /* Timeline Page ****************************************** */
@@ -65,8 +45,3 @@ margin: 5px;
 
 /* Photo Page ****************************************** */
 
-#photo-album {
-width: 380px;
-height: 390px;
-padding: 10px;
-}

@@ -2,7 +2,7 @@ const HomeTron = () => {
   return (
 //  {/*Home Image */}
 <div className="home-card">
-  <img src="../src/images/MimaHome.png" className="rounded float-start" id="home-img" alt="..."></img>
+  <img src="../src/images/Home/MimaHome.png" className="rounded float-start" id="home-img" alt="..."></img>
   <div className="card-details">
     <h2> In Remembrance Of <i> Guadalupe Mendoza </i> </h2>
     <br/>
@@ -13,10 +13,7 @@ const HomeTron = () => {
 <p>We&apos;re blessed to be able to see all of these memories and stories that everyone is sharing and it just goes to show how much of a force of nature Mima truly was.
 </p>
 </div>
-{/* Home Paragraph Details*/}
 </div>
-
-
 
 )}
 

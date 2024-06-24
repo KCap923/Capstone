@@ -1,0 +1,33 @@
+
+#quote {
+  color: whitesmoke;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  margin-top: 50px;
+  }
+  
+  #quote-source {
+  color: whitesmoke;
+  font-family: "Lora", serif;
+  font-size: 15px;
+  margin: 5px;
+  }
+  
+  .home-card {
+    width: 1110px;
+    height: 500px;
+    margin-top: 5px;
+  }
+  
+  #home-img {
+    width: 480px;
+    padding-top: 50px;
+  }
+  
+  .card-details {
+    color: whitesmoke;
+    font-family: "Lora", serif;
+    font-size: 18px;
+    padding-top: 160px;
+    
+  }
