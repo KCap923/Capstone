@@ -1,6 +1,9 @@
 const Obituary = () => {
 return(
 <div> 
+<img src="../src/images/Home/SecondHomeImg.png" className="rounded float-start" id="home-img2" alt="..."></img>
+<div className="card-details"/>
+
 <h3> Obituary </h3>
 <br/>
 <p> 
