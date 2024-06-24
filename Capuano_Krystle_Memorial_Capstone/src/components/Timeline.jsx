@@ -4,13 +4,14 @@ const TimeTron = () => {
       <h1> Timeline </h1>
 
       {/* Timeline Photo */}
-      <img
+      
+      <p className="timeline-heading">I know for certain that we never lose the people we love, even to death. They continue to participate in every act, thought, and decision we make. Their love leaves an indelible imprint in our memories. We find comfort in knowing that our lives have been enriched by having shared their love. </p>
+<img
         src="../src/images/Timeline/Home2.png"
         className="rounded float-start"
         id="home-img3"
         alt="..."
       ></img>
-
       {/* Timeline */}
 
       <div className="d-flex flex-column flex-md-row p-4 gap-4  py-md-5 align-items-center justify-content-center">
@@ -188,6 +189,7 @@ const TimeTron = () => {
       </div>
       </div>
       </div>
+
     </>
   );
 };

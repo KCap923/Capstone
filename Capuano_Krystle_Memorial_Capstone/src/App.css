@@ -42,13 +42,8 @@ h3 {
 }
 
 #home-img2 {
-  width: 48%;
-}
-
-#home-img3 {
   width: 50%;
 }
-
 
 .home-paragraph{
   font-family: "Lora", serif;
@@ -61,7 +56,9 @@ h3 {
 
 
 /* Timeline Page ****************************************** */
-
+#home-img3 {
+  width: 60%;
+}
 
 /* Memory Page ****************************************** */
 
