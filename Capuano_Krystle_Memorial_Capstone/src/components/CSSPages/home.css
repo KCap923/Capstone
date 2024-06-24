@@ -1,8 +1,9 @@
-{/*Quote, Images, */}
+{/* Quote, Images */}
 
 h2{
   color: #27374D;
   font-family: "Lora", serif;
+  font-weight: 700;
 }
 
 #quote {
