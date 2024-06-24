@@ -1,8 +1,11 @@
 const PhotoCards =() => {
 
   return(
-  <div className="photo-album">
+
+<div className="photo-album">
 <img src="../src/images/Photos/Fields.jpg" className="rounded float-end" id="photo-album" alt="..."></img>
+
+
 <img src="../src/images/Photos/Wedding.jpg" className="rounded float-start" id="photo-album" alt="..."></img>
 <img src="../src/images/Photos/SittingPretty.jpg" className="mx-auto d-block" id="photo-album" alt="..."></img>
 <img src="../src/images/Photos/PhotoBooth.jpg" className="rounded float-end" id="photo-album" alt="..."></img>
