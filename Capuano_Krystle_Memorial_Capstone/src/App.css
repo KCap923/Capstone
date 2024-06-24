@@ -23,6 +23,16 @@ font-family: "Lora", serif;
 font-size: 20px;
 }
 
+/* Footer Details ****************************************** */
+#footer {
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
+
 /* Home Page/ Obituary Details ****************************************** */
 
 h3 {
