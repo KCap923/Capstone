@@ -1,13 +1,11 @@
-import Navbar from '../components/NavBar'
-import "../components/CSSPages/timeline.css"
+import Navbar from "../components/NavBar";
 import Footer from "../components/Footer"
 
-export default function Timeline() {
+export default function Home() {
   return (
     <>
-      <Navbar />
-      <h1> Timeline Page </h1>
-      <Footer/>
-    </>
+        <Navbar /> 
+        <Footer/>
+        </>
   );
 }

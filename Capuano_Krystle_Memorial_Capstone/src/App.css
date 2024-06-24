@@ -31,8 +31,6 @@ font-size: 20px;
 }
 
 
-
-
 /* Home Page/ Obituary Details ****************************************** */
 
 h3 {
@@ -44,16 +42,21 @@ h3 {
 }
 
 #home-img2 {
-  width: 600px;
+  width: 48%;
 }
 
+#home-img3 {
+  width: 45%;
+}
+
+
 .home-paragraph{
-  display: flex !important;
-  justify-content: start !important;
+
   font-family: "Lora", serif;
   color: whitesmoke;
   font-size: 20px;
   padding-left: 80px;
+  padding-right: 80px;
 }
 
 

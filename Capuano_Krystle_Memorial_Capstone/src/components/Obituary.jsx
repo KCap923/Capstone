@@ -1,7 +1,6 @@
 const Obituary = () => {
 return(
 <div> 
-<img src="../src/images/Home/SecondHomeImg.png" className="rounded float-end" id="home-img2" alt="..."></img>
 
 <h3> Obituary </h3>
 <br/>
@@ -22,7 +21,6 @@ We will miss her gentle smile, her comforting presence, and the unconditional lo
 As we say goodbye, let us remember the beautiful legacy Mima has left behind. Let us honor her by carrying forward the values she taught us and by living our lives with the same love and compassion she showed us every day.
 
 Rest in peace, dear Mima. You will forever be in our hearts.
-
 </p>
 </div>
 )

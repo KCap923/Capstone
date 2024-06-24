@@ -11,7 +11,6 @@ export default function Home() {
         <Navbar /> 
         <HomeTron />
         <Quote />
-        <br />
         <Obituary/>
         <Footer/>
         </>
