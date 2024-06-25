@@ -1,6 +1,8 @@
 .video {
 padding-top: 30px;
-padding-left: 380px;
+padding-left: 100px;
+width: 100%;
+height: 100%;
 }
 
 .memory-heading{
