@@ -30,7 +30,7 @@ body: JSON.stringify(newComment)
   });
 
   // Return out of this function if we do not get a 201 response
-if (response.status !== 201) {
+if (response.status !== 200) {
 
   return
 }
