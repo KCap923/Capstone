@@ -10,20 +10,47 @@ const dateRef=useRef(null)
 
 // Set handle submit, what happens when form is submitted. prevent.Default is set so page doesnt automatically refresh
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault()
 try {
-  console.log(nameRef.current.value)
-  console.log(nameRef.current.value)
-  console.log(nameRef.current.value)
-  console.log(nameRef.current.value)
+  const newComment = {
+  name:(nameRef.current.value),
+  relationship:(relRef.current.value),
+  comment:(commRef.current.value),
+  date:(dateRef.current.value)
+  }
+
+  const response = await fetch(`${baseUrl}/comments`, {
+method: 'POST',
+headers: {
+  'Content-Type': 'application/json'
+},
+// With fetch you have to stringify your body
+body: JSON.stringify(newComment)
+  });
+
+  // Return out of this function if we do not get a 201 response
+if (response.status !== 201) {
+
+  return
+}
+// This data is a new comment that sends back to backend
+const createdComment = await response.json()
+
+setComments([...comments, createdComment])
+
+// Clears out what is in input field
+nameRef.current.value = ""
+relRef.current.value = ""
+commRef.current.value = ""
+dateRef.current.value = ""
+
+
 
 } catch (err) {
   console.log(err)
 }
 };
-
-
 
 return (
  <form onSubmit={handleSubmit} className="NewComment">
