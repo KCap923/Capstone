@@ -1,5 +1,4 @@
 import './App.css'
-import NavBar from './components/NavBar'
 
 // Import Route and our components
 import { BrowserRouter, Routes, Route } from "react-router-dom"
@@ -9,8 +8,8 @@ import Memory from "./pages/Memory"
 import Photos from "./pages/Photos"
 import Nopage from "./pages/NoPage"
 
-
 export default function App() {
+
   return (
     <BrowserRouter>  
     <Routes>
