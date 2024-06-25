@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "../components/NavBar";
 import MemoryTron from "../components/Memory";
 import NewComment from "../components/Comments";
@@ -11,6 +11,27 @@ export default function Memory() {
 
   // Grabbing API/ Send a request to our API when someone submits a comment
   const baseUrl = "https://capstone-memorial-backend.onrender.com";
+
+useEffect(() => {
+const getComments = async () => {
+
+try {
+const response = await fetch(`${baseUrl}/comments`);
+
+if (response.status !== 201) {
+  return;
+}
+
+const data =await response.json();
+
+setComments(data);
+} catch (err) {
+  console.log(err);
+}
+};
+
+getComments();
+}, []);
 
   return (
     <>

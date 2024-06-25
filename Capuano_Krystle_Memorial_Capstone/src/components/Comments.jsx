@@ -11,7 +11,7 @@ const dateRef=useRef(null);
 // Set handle submit, what happens when form is submitted. prevent.Default is set so page doesnt automatically refresh
 
 const handleSubmit = async (e) => {
-  e.preventDefault()
+  e.preventDefault();
 try {
   const newComment = {
   name:(nameRef.current.value),
