@@ -1,12 +1,12 @@
 import { useRef } from "react";
 
-export default function Comments ({comments, setComments, baseUrl}) {
+export default function NewComment ({ comments, setComments, baseUrl }) {
 
   // UseRef keeps a reference to each of the elements below to see current value that is typed into them by user
-const nameRef=useRef(null)
-const relRef=useRef(null)
-const commRef=useRef(null)
-const dateRef=useRef(null)
+const nameRef=useRef(null);
+const relRef=useRef(null);
+const commRef=useRef(null);
+const dateRef=useRef(null);
 
 // Set handle submit, what happens when form is submitted. prevent.Default is set so page doesnt automatically refresh
 
@@ -44,8 +44,6 @@ nameRef.current.value = ""
 relRef.current.value = ""
 commRef.current.value = ""
 dateRef.current.value = ""
-
-
 
 } catch (err) {
   console.log(err)
