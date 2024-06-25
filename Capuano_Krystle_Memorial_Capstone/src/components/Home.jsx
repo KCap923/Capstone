@@ -22,6 +22,7 @@ const HomeTron = () => {
           that everyone is sharing and it just goes to show how much of a force
           of nature Mima truly was.
         </p>
+
       </div>
     </div>
   );

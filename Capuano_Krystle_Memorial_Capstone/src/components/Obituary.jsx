@@ -22,7 +22,16 @@ As we say goodbye, let us remember the beautiful legacy Mima has left behind. Le
 
 Rest in peace, dear Mima. You will forever be in our hearts.
 </p>
+<br />
+<h3 className="share"> Share </h3>
+<br />
+<a href="#" className="fa fa-facebook"></a>
+<a href="#" className="fa fa-twitter"></a>
+<a href="#" className="fa fa-instagram"></a>
 </div>
+
+
+
 )
 }
 
