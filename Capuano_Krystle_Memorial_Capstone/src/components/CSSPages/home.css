@@ -7,16 +7,17 @@ h2{
 }
 
 #quote {
-  color: #27374D;
+  color: #526D82;
   font-family: "Lora", serif;
   font-size: 30px;
+  font-weight: 700;
   margin-top: 30px;
   }
   
   #quote-source {
   color: whitesmoke;
   font-family: "Lora", serif;
-  font-size: 15px;
+  font-size: 17px;
   margin: 5px;
   }
   
