@@ -14,11 +14,14 @@ export default function App() {
     <BrowserRouter>  
     <Routes>
     <Route index element={<Home/>}/>
+    <Route path="/" element={<Home/>}/>
+    <Route path="#" element={<Home/>}/>
+    <Route path="*" element={<Home/>}/>
     <Route path="/home" element={<Home/>}/>
     <Route path="/timeline" element={<Timeline/>}/>
     <Route path="/memories" element={<Memory/>}/>
     <Route path="/photos" element={<Photos/>}/>
-    <Route path="*" element={<Nopage/>}/>
+   
     </Routes>
     </BrowserRouter>
   )
