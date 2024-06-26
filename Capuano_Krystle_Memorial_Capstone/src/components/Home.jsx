@@ -26,7 +26,7 @@ const HomeTron = () => {
         <br />
           {/* Home Top Page Details*/}
         <h5> Personal Note </h5>
-        <p>
+        <p className="note">
           We&apos;re blessed to be able to see all of these memories and stories
           that everyone is sharing and it just goes to show how much of a force
           of nature Mima truly was.
