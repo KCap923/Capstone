@@ -1,7 +1,7 @@
 const Obituary = () => {
 return(
 <div> 
-
+<br />
 <h3> Obituary </h3>
 <br/>
 <p className="home-paragraph" > 
@@ -25,13 +25,10 @@ Rest in peace, dear Mima. You will forever be in our hearts.
 <br />
 <h3 className="share"> Share Website on ... </h3>
 <br />
-<a href="#" className="fa fa-facebook"></a>
-<a href="#" className="fa fa-twitter"></a>
-<a href="#" className="fa fa-instagram"></a>
+<a href="https://www.facebook.com/" className="fa fa-facebook"></a>
+<a href="https://x.com/home?lang=en" className="fa fa-twitter"></a>
+<a href="https://www.instagram.com/" className="fa fa-instagram"></a>
 </div>
-
-
-
 )
 }
 

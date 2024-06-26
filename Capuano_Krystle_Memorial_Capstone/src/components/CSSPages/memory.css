@@ -18,27 +18,17 @@ height: 100%;
 
 /* Pre set Styling ***************************************************************/
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
   padding: .5rem;
   text-align: center;
 }
 
-/* Title styling */
-.title {
-  margin: 10px
-}
-
-
-
 /* Form styling */
 .NewForm {
-  text-align: left;
+  text-align: right;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 50px solid #ccc;
   border-radius: 5px;
   width: 80vw;
-  /* max-width: 800px; */
   margin: 0 auto;
   background-color: #ffffff;
 }

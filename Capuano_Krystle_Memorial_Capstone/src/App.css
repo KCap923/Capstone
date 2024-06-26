@@ -35,9 +35,10 @@ font-size: 20px;
 
 h3 {
   font-family: "Playwrite IN", cursive;
+  text-align: start;
+  padding-left: 80px;
   color: #27374D;
   font-size: 25px;
-  padding-left: 80px;
   font-weight: 700;
 }
 
@@ -47,6 +48,7 @@ h3 {
 
 .home-paragraph{
   font-family: "Lora", serif;
+  text-align: justify;
   color: whitesmoke;
   font-size: 20px;
   padding-left: 80px;
@@ -55,7 +57,7 @@ h3 {
 
 /* Social Medias Details ****************************************** */
 .share{
-text-align: start;
+text-align: center;
 
 }
 .fa {
@@ -89,8 +91,10 @@ text-align: start;
 
 /* Timeline Page ****************************************** */
 #home-img3 {
-  width: 60%;
+  width: 50%;
 }
+
+
 
 /* Memory Page ****************************************** */
 
