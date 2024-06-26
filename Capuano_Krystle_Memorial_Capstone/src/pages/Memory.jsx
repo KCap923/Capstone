@@ -12,6 +12,7 @@ export default function Memory() {
   // Grabbing API/ Send a request to our API when someone submits a comment
   const baseUrl = "https://capstone-memorial-backend.onrender.com";
 
+  // Define function
 useEffect(() => {
 const getComments = async () => {
 
@@ -30,6 +31,7 @@ setComments(data);
 }
 };
 
+// Run Function
 getComments();
 }, []);
 
